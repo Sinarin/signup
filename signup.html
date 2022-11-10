@@ -6,12 +6,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="stylesheet.css">
+  <script src="sportus.js" defer></script>
 </head>
 
 <body>
   <div class="block1">
     <img class="bball" src="artistic-frames--ktMlFrD0Z4-unsplash.jpg" alt="">
-    <div class="title"><span class="title2">Sport US</span></div>
+    <div class="title">
+      <span class="title2">Sport US</span>
+    </div>
   </div>
   <div class="main">
     <div class="info">
@@ -20,14 +23,15 @@
         <span class="verb">Play.</span>
         <span class="verb">Live!</span>
       </div>
+      <img src="sport.jpg" alt="" class="logo">
     </div>
-    <form action="" id="register_form" method="post">
+    <form action="" id="register_form" method="post" autocomplete="on">
       <fieldset>
         <legend>Let's do this!</legend>
         <div class="inputholder">
           <div class="inputdivider">
-            <label class="sign_up_form" for="first_name">First Name</label>
-            <input id="first_name" type="text" placeholder="eg. Bob" required>
+            <label class="sign_up_form" for="first-name">First Name</label>
+            <input id="first-name" type="text" placeholder="eg. Bob" required>
           </div>
           <div class="inputdivider">
             <label class="sign_up_form" for="last_name">Last Name</label>
@@ -45,7 +49,7 @@
             <label class="sign_up_form" for="password">Password</label>
             <input type="password" id="password" placeholder="Password" required >
           </div>
-          <div class="inputdivider password">
+          <div class="inputdivider password" id="confirmpass">
             <label class="sign_up_form" for="passconfirm">Confirm Password</label>
             <input type="password" id="passconfirm" placeholder="Confirm Password" required>
           </div>
