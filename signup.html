@@ -5,9 +5,60 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="stylesheet" href="stylesheet.css">
 </head>
 
 <body>
-  
+  <div class="block1">
+    <img class="bball" src="artistic-frames--ktMlFrD0Z4-unsplash.jpg" alt="">
+    <div class="title"><span class="title2">Sport US</span></div>
+  </div>
+  <div class="main">
+    <div class="info">
+      <div class="textbox">
+        <span class="verb">Connect.</span>
+        <span class="verb">Play.</span>
+        <span class="verb">Live!</span>
+      </div>
+    </div>
+    <form action="" id="register_form" method="post">
+      <fieldset>
+        <legend>Let's do this!</legend>
+        <div class="inputholder">
+          <div class="inputdivider">
+            <label class="sign_up_form" for="first_name">First Name</label>
+            <input id="first_name" type="text" placeholder="eg. Bob" required>
+          </div>
+          <div class="inputdivider">
+            <label class="sign_up_form" for="last_name">Last Name</label>
+            <input type="text" id="last_name" required placeholder="eg. Smith">
+          </div>
+          <div class="inputdivider">
+            <label class="sign_up_form" for="email">Email</label>
+            <input type="email" id="email" required placeholder="eg. bobsmith@gmail.com">
+          </div>
+          <div class="inputdivider">
+            <label class="sign_up_form" for="phone_number">Phone Number</label>
+            <input type="tel" id="phone_number" required placeholder="eg. 112-123-1234">
+          </div>
+          <div class="inputdivider password">
+            <label class="sign_up_form" for="password">Password</label>
+            <input type="password" id="password" placeholder="Password" required >
+          </div>
+          <div class="inputdivider password">
+            <label class="sign_up_form" for="passconfirm">Confirm Password</label>
+            <input type="password" id="passconfirm" placeholder="Confirm Password" required>
+          </div>
+
+        </div>
+      </fieldset>
+    </form>
+    <div class="sign">
+      <div class="create_account">
+        <button type="submit" form="register_form">Create Account</button>
+        <p class="registered">Already have an account? <a href="" class="log_in">Log in</a> </p>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
